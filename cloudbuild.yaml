@@ -1,7 +1,4 @@
 steps:
-- name: 'gcr.io/ternary-sandbox/airflow'
+- name: 'python:3.7'
   entrypoint: 'bash'
   args: [ 'test.sh' ]
-- name: 'debian'
-  entrypoint: 'echo'
-  args: ['done']
