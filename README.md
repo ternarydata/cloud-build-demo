@@ -17,7 +17,7 @@ Change to the appropriate directory and run
 ```
 gcloud builds submit
 ```
-
+The file `dag.py` in two of the builds is taken from a standard tutorial in the [Apache Airflow Project](https://github.com/apache/airflow/blob/master/airflow/example_dags/tutorial.py).
 ## `airflow-install-and-test`
 
 Pulls a Python 3.7 container from Docker Hub, installs Apache Airflow and runs a basic test.
