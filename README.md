@@ -1,4 +1,6 @@
-# Google Cloud Build Demo
+# Google Cloud Build Demo - SLC Python Meetup
+[Slides for this talk](https://docs.google.com/presentation/d/18_ZcuhHD8_yng7FQd6DaADTAMZZdHQkOpwQNhOfTe9E/edit?usp=sharing)
+## Code
 Code for a Google Cloud Build demo run at the SLC Python meetup.
 To experiment with these builds, create a GCP project and modify the `cloudbuild.yaml` files to point to your project.
 For example, in
