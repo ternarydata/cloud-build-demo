@@ -13,6 +13,10 @@ change `slc-python-demo` to your project id.
 
 The easiest place to run these builds is in the Google Cloud Shell. There are four builds:
 `airflow-install-and-test`,  `build-airflow-container`,  `test-from-airflow-container` and `pull-and-write-data`.
+Change to the appropriate directory and run
+```
+gcloud builds submit
+```
 
 ## `airflow-install-and-test`
 
